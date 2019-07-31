@@ -5,27 +5,26 @@ paginate_path: "page:num"
 exclude: ["README.md"] # files to exclude
 highlighter: rouge
 markdown: kramdown
-disqus: dbyll
-google_analytics: dbyll
-title: dbyll
+#disqus: dbyll
+#google_analytics: dbyll
+title: Franz Flasch
 
 defaults:
   -
     scope:
       path: "" # empty string for all files
     values:
-      title: dbyll
+      title: personal techblog
 
-description: Stylish Jekyll Theme
+description: Random tech stuff I want to document and share.
 author:
-  name: dbyll
-  email: dbyll@ismaildemirbilek.com
-  github: dbtek
-  twitter: dbtek
-  pinterest: asd123
-  linkedin: asd123
-  bio: Your stylish, minimalist theme!
-  email_md5: 726351295ec82e145928582f595aa3aa
+  name: Franz Flasch
+  email: franz.flasch@gmx.at
+  github: franzflasch
+  twitter: franzflasch86
+  linkedin: www.linkedin.com/in/franz-flasch-0bb197157
+  bio: Random tech stuff I want to document and share.
+  email_md5: 3d49827ed680b82a354fbb162035c91f
 
 rss_path: feed.xml
 categories_path: categories.html
