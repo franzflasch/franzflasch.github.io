@@ -157,9 +157,9 @@ the correct CPU core states when running our modified isa tests.
 
 **So how do we get all the CPU core states from qemu?**  
 
-Answer: We will issue qemu and gdb with some scriptint magic to get all CPU core states we want. 
+Answer: We will issue qemu and gdb with some scripting magic to get all CPU core states we want. 
 
-First prepare a gdb script like this:
+First prepare a gdb script (step_mult.gdb) like this:
 
 {% highlight gdb %}
 # file: step_mult.gdb
@@ -202,7 +202,7 @@ Just let it run and kill it with fire after a few seconds:
 kill -9 $(pidof qemu-system-riscv32)
 {% endhighlight %}
 
-The file <test>_trace.txt should now contain all CPU register states of the test run.  
+The _trace.txt file should now contain all CPU register states of the test run.  
 
 
 I've prepared a script which does all the above things automatically for all selected tests:  
